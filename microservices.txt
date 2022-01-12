@@ -1,0 +1,30 @@
+create microservices
+create service register eureka
+enable communication betwen services
+create api gateway to enable unique port to call microservices
+create circuit breaker and histrix dashboard 
+create cloud config server , create cloud config server with config for eureka in git hub
+implement zipkin and sleuth distributed log tracing
+
+
+eureka
+http://localhost:8761/
+
+zipkin
+http://127.0.0.1:9411/zipkin/
+
+histrix
+http://desktop-qcknb64:9295/hystrix
+
+api-gateway stream
+http://desktop-qcknb64:9191/actuator/hystrix.stream
+
+
+
+You tube
+https://www.youtube.com/watch?v=BnknNTN8icw&t=3588s
+
+gitHub
+https://github.com/shabbirdwd53/Springboot-Microservice
+
+
